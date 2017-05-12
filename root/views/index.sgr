@@ -1,0 +1,5 @@
+extends(src='layout.sgr')
+  block(name='content')
+    h1 Component Example!
+    example-component(foo='bar')
+      p I'm a child element!

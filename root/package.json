@@ -1,0 +1,40 @@
+{
+  "name": "<%= name %>",
+  "description": "<%= description %>",
+  "version": "0.0.1",
+  "author": "<%= username %>",
+  "ava": {
+    "verbose": "true"
+  },
+  "bugs": "https://github.com/<%= username %>/<%= name %>/issues",
+  "dependencies": {
+    "babel-preset-preact": "^1.1.0",
+    "babel-register": "^6.24.1",
+    "preact": "^8.1.0",
+    "reshape-eval-code": "^0.3.0",
+    "reshape-preact-ssr": "^0.3.0",
+    "reshape-standard": "^1.0.0",
+    "spike-css-standards": "^1.0.0",
+    "spike-datocms": "^0.3.0",
+    "spike-js-standards": "^2.0.1",
+    "spike-page-id": "^1.0.0",
+    "webpack": "^2.3.3"
+  },
+  "devDependencies": {
+    "ava": "^0.19.0",
+    "rimraf": "^2.6.0",
+    "snazzy": "^6.0.0",
+    "spike-core": "^1.0.0",
+    "standard": "^10.0.0"
+  },
+  "homepage": "https://github.com/<%= username %>/<%= name %>",
+  "main": "app.js",
+  "private": true,
+  "repository": "https://github.com/<%= username %>/<%= name %>",
+  "scripts": {
+    "lint": "standard | snazzy",
+    "precommit": "npm run lint -s",
+    "pretest": "npm run lint -s",
+    "test": "NODE_ENV=test ava"
+  }
+}

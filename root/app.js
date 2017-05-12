@@ -29,6 +29,11 @@ module.exports = {
   postcss: cssStandards(),
   babel: jsStd,
   plugins: [
+    // ----------------------------------------------------------
+    // [!!] Dato Integration -- uncomment below and add your api token and models to
+    // get the data flowing. See https://github.com/static-dev/spike-datocms#usage
+    // for further detail!
+    // ----------------------------------------------------------
     // new SpikeDatoCMS({
     //   addDataTo: locals,
     //   token: 'xxx',

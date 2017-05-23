@@ -5,7 +5,7 @@ A spike template for a datocms-powered static site utilizing static preact compo
 ### Installation
 
 - `npm install sprout-cli -g`
-- `sprout add spike-tpl-datocms-preact git@github.com:static-dev/spike-tpl-datocms-preact.git`
+- `sprout add spike-tpl-datocms-preact git@github.com:carrot/spike-tpl-datocms-preact.git`
 - `sprout new spike-tpl-datocms-preact myproject `
 
 ### Options

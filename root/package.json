@@ -2,11 +2,11 @@
   "name": "<%= name %>",
   "description": "<%= description %>",
   "version": "0.0.1",
-  "author": "<%= username %>",
+  "author": "<%= github_username %>",
   "ava": {
     "verbose": "true"
   },
-  "bugs": "https://github.com/<%= username %>/<%= name %>/issues",
+  "bugs": "https://github.com/<%= github_username %>/<%= name %>/issues",
   "dependencies": {
     "babel-preset-preact": "^1.1.0",
     "babel-register": "^6.24.1",
@@ -27,10 +27,10 @@
     "spike-core": "^1.0.0",
     "standard": "^10.0.0"
   },
-  "homepage": "https://github.com/<%= username %>/<%= name %>",
+  "homepage": "https://github.com/<%= github_username %>/<%= name %>",
   "main": "app.js",
   "private": true,
-  "repository": "https://github.com/<%= username %>/<%= name %>",
+  "repository": "https://github.com/<%= github_username %>/<%= name %>",
   "scripts": {
     "lint": "standard | snazzy",
     "precommit": "npm run lint -s",
